@@ -23,6 +23,11 @@ export default {
       accessToken: '123456789:abcdefghijklmnopqrstuvwxyzABCDEFGHI',
       chatId: 123456789,
       message: '<b>🤖 %currency% address lurker</b>\n<em>New %type% transaction.</em>\n\n<b>🛠 Hash :</b> <code>%tx_hash%...</code>\n\n<b>📝 Address :</b>\n<pre>%address%</pre>\n\n<b>💰 Amount :</b>\n<pre>%value% %currency%</pre>\n\nView on <a href="%explorer%%hash%">explorer</a>...\n<em>Date : %date%</em>'
+    },
+    slack: {
+      accessToken: 'xoxb-000000000000-xxxxxxxxxxxxxxxxxxxxxxxx',
+      chatID: '#123456789:abcdefghijklmnopqrstuvwxyzABCDEFGHI',
+      message: '<b>🤖 %currency% address lurker</b>\n<em>New %type% transaction.</em>\n\n<b>🛠 Hash :</b> <code>%tx_hash%...</code>\n\n<b>📝 Address :</b>\n<pre>%address%</pre>\n\n<b>💰 Amount :</b>\n<pre>%value% %currency%</pre>\n\nView on <a href="%explorer%%hash%">explorer</a>...\n<em>Date : %date%</em>'
     }
   },
   dateFormat: 'MMMM Do YYYY, hh:mm A',
